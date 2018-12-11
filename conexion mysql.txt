@@ -1,0 +1,26 @@
+django con mysql
+- tener instalado xampp y crear en localhost la bd (En este caso, la bd se llama 'posts')
+
+***iniciar xampp cada vez que corra el programa***
+
+- modificar en settings.py
+	DATABASES = {
+    		'default': {
+
+        		'ENGINE': 'mysql_cymysql',
+        		'NAME': 'posts',
+        		'USER':'root',
+        		'PASSWORD':'',
+        		'HOST':'127.0.0.1',
+        		'PORT': 3306,
+        
+    		}
+	}
+	
+- pip install mysqlclient
+- pip install cymysql
+- pip install django-cymysql
+
+seguir pasos link 
+
+https://medium.com/beginners-guide-to-mobile-web-development/convert-django-website-to-a-progressive-web-app-3536bc4f2862
